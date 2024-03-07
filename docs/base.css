@@ -1,0 +1,127 @@
+/*
+This stylesheet uses colors from Solarized, whose license is reproduced below.
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+html {
+    font-size: 21px;
+}
+
+body {
+    /* This prevents there being a thin border on the sides on narrow
+     * screens. */
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #73643F;
+    word-wrap: break-word;
+}
+
+nav {
+    margin-left: 13px;
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', 'Segoe UI', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #ffffff; }
+nav a:visited { color: #ffffff; }
+nav a:hover, a:active { text-decoration: underline; }
+
+main {
+    font-family: 'Source Serif Pro', Charter, "Bitstream Charter", Georgia, serif;
+    line-height: 1.45;
+    text-rendering: optimizeLegibility;
+    border-radius: 9px;
+    background-color: #fdf6e3;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    word-wrap: break-word;
+    box-shadow: 0 5px 8px 4px rgb(247 240 83 / 0.25);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Source Sans Pro', 'Segoe UI', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 120%;
+    margin-bottom: 1rem;
+}
+
+a { text-decoration: none; }
+a:link { color: #b58900; }
+a:visited { color: #cb4b16; }
+a:hover, a:active { text-decoration: underline; }
+
+.front {
+    text-align: center;
+}
+
+.back {
+    text-align: center;
+}
+
+.notes {
+    margin-top: 15px;
+    font-size: 90%;
+    color: #444444;
+}
+
+div.card {
+    border-radius: 10px;
+    background-color: #eee8d5;
+    max-width: 600px;
+    border: 1px solid #a0a0a0;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 5px 0px rgb(0 0 0 / 0.25);
+}
+
+a.heading-marker {
+    font-size: 60%;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+h2:hover a.heading-marker {
+    color: #b58900;
+}

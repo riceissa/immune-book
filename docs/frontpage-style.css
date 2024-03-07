@@ -1,0 +1,124 @@
+/*
+This stylesheet uses colors from Solarized, whose license is reproduced below.
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+main {
+    max-width: 55rem;
+}
+
+.use-options-container {
+    padding-top: 0.8rem;
+    text-align: center;
+    background-color: #eee8d5;
+    border-radius: 9px;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 10px 20px 0px rgb(0 0 0 / 0.25);
+    margin-bottom: 45px;
+}
+
+.use-option-button-container {
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-right: 1.1rem;
+    width: 15rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+a.use-option-button {
+    font-family: 'Source Sans Pro', 'Segoe UI', Helvetica, sans-serif;
+    font-size: 1.11rem;
+    background-color: #657b83;
+    color: #fdf6e3;
+    display: inline-block;
+    padding: 0.4rem 0.75rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    border: 1px solid #073642;
+    width: 12rem;
+}
+
+a.use-option-button-container:last-child {
+    margin-right: 0px;
+}
+
+a.use-option-button:hover {
+    background-color: #073642;
+    text-decoration: none;
+}
+
+a.use-option-button:active {
+    background-color: #073642;
+    text-decoration: none;
+}
+
+a.use-option-button:link { color: #fdf6e3; }
+a.use-option-button:visited { color: #fdf6e3; }
+
+.features-container {
+    padding-top: 0.8rem;
+    padding-bottom: 1.5rem;
+    color: #ddebeb;
+    background-color: #073642;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 0 10px 20px 8px rgb(0 0 0 / 0.25);
+}
+
+.feature-container {
+    margin-top: 2rem;
+    text-align: center;
+    margin-right: 0.8rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 16rem;
+}
+
+.features-container:last-child {
+    margin-right: 0px;
+}
+
+img {
+    width: 15rem;
+    height: auto;
+}
+
+hr.squiggle {
+    background-image: url('squiggle2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 70px;
+    border: 0px;
+}
+
+div.credits {
+    text-align: center;
+    max-width: 30rem;
+    font-size: 80%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
