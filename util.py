@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import sys
 from anki.collection import Collection
 
 sections = [
@@ -48,6 +49,7 @@ sections = [
     "Chapter 43",
     "Chapter 44",
     "Chapter 45",
+    "(empty section name)",  # TODO: for testing only; remove before final version
 ]
 
 col = Collection("apkg/collection.anki21")
@@ -63,7 +65,8 @@ for note_id in col.find_notes(""):
         section_map[note["Section"]].append(note)
     except KeyError:
         print(f"Card has section name {note['Section']}, but this section isn't in the sections list!", file=sys.stderr)
-        sys.exit()
+        section_map["(empty section name)"].append(note)
+        # sys.exit()
 
 # By default, the cards are ordered by the note ID, rather than the "New #"
 # that appears in the Anki browse window.  So here we get the card that would
