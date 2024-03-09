@@ -68,7 +68,7 @@ with open("docs/orbit/index.html", "w") as f:
                   <meta charset="utf-8">
                   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
                   <title>{section} - Immune Book Flashcards</title>
-                  <link rel="canonical" href="https://riceissa.github.io/geb-typogenetics-dna-rna/orbit/{util.slugify(section)}/">
+                  <link rel="canonical" href="https://riceissa.github.io/immune-book/orbit/{util.slugify(section)}/">
                   <meta property="og:title" content="{section}">
                   <meta property="og:site_name" content="Immune Book flashcards">
                   <link rel="stylesheet" href="../../base.css">
@@ -97,14 +97,14 @@ with open("docs/orbit/index.html", "w") as f:
                     if len(match) > 1:
                         raise ValueError("Question cannot contain more than one image!")
                     if len(match) == 1:
-                        image_url = "https://riceissa.github.io/geb-typogenetics-dna-rna/browse/" + match[0]
+                        image_url = "https://riceissa.github.io/immune-book/browse/" + match[0]
                         question_attachments = f'question-attachments="{image_url}"'
                         note_front = re.sub(img_regex, "", note_front).strip()
                     match = re.findall(img_regex, note_back)
                     if len(match) > 1:
                         raise ValueError("Answer cannot contain more than one image!")
                     if match:
-                        image_url = "https://riceissa.github.io/geb-typogenetics-dna-rna/browse/" + match[0]
+                        image_url = "https://riceissa.github.io/immune-book/browse/" + match[0]
                         answer_attachments = f'answer-attachments="{image_url}"'
                         note_back = re.sub(img_regex, "", note_back).strip()
                     g.write(f"""<orbit-prompt
