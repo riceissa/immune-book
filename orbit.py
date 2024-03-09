@@ -38,7 +38,7 @@ with open("docs/orbit/index.html", "w") as f:
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 
-    <title>Orbit index - GEB Typogenetics/DNA/RNA Flashcards</title>
+    <title>Orbit index - Immune Book Flashcards</title>
 
     </head>
     <body>
@@ -67,10 +67,10 @@ with open("docs/orbit/index.html", "w") as f:
                 <head>
                   <meta charset="utf-8">
                   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-                  <title>{section} - GEB Typogenetics/DNA/RNA Flashcards</title>
+                  <title>{section} - Immune Book Flashcards</title>
                   <link rel="canonical" href="https://riceissa.github.io/geb-typogenetics-dna-rna/orbit/{util.slugify(section)}/">
                   <meta property="og:title" content="{section}">
-                  <meta property="og:site_name" content="GEB Typogenetics/DNA/RNA flashcards">
+                  <meta property="og:site_name" content="Immune Book flashcards">
                   <link rel="stylesheet" href="../../base.css">
 
                     <link rel="preconnect" href="https://fonts.googleapis.com">
