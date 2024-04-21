@@ -8,6 +8,11 @@ from anki.collection import Collection
 
 import util
 
+# We will be calling pandoc three times per every single one of our ~500 cards,
+# which makes this script quite slow. If I was running this script more often
+# I'd try to figure out a more efficient way to convert from HTML to markdown,
+# but the website just needs to be generated once so the efficiency of this
+# script doesn't end up mattering much.
 def html_to_markdown(html_string):
     try:
         # markdown_strict is needed here so that things like double quotes
