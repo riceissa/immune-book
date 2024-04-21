@@ -49,7 +49,9 @@ sections = [
     "Chapter 43",
     "Chapter 44",
     "Chapter 45",
-    # "(empty section name)",  # TODO: for testing only; remove before final version
+    # "(empty section name)",  # This was enabled during testing only,
+                               # back when some cards still had empty
+                               # Section fields.
 ]
 
 col = Collection("apkg/collection.anki21")
