@@ -49,7 +49,7 @@ sections = [
     "Chapter 43",
     "Chapter 44",
     "Chapter 45",
-    "(empty section name)",  # TODO: for testing only; remove before final version
+    # "(empty section name)",  # TODO: for testing only; remove before final version
 ]
 
 col = Collection("apkg/collection.anki21")
