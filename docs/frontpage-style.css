@@ -125,10 +125,18 @@ div.credits {
 
 div.front-page-card-container {
     float: right;
-    height: 400px;
+    height: 380px;
+    width: 600px;
     padding: 20px;
+    position: relative;
+}
+
+div.front-page-card-container a {
+    text-decoration: none;
+    color: #000;
 }
 
 div.front-page-card {
-    position: relative;
+    position: absolute;
+    max-width: 500px;
 }
