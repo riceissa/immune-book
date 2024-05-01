@@ -4,6 +4,22 @@ import sys
 
 import util
 
+
+front_to_slug_map = {}
+slugs = set()
+for section in util.sections:
+    for note in util.section_map[section]:
+        slug = util.slugify(" ".join(note["Front"].split()[:5]))
+        if slug in slugs:
+            n = 2
+            new_slug = slug + f"-{n}"
+            while new_slug in slugs:
+                n += 1
+                new_slug = slug + f"-{n}"
+            slug = new_slug
+        slugs.add(slug)
+        front_to_slug_map[note["Front"]] = slug
+
 with open("docs/browse/index.html", "w") as f:
 
     f.write(f"""<!DOCTYPE html>
@@ -36,7 +52,8 @@ with open("docs/browse/index.html", "w") as f:
         if not util.section_map[section]:
             f.write("<p>There are no cards for this section.</p>\n")
         for note in util.section_map[section]:
-            f.write('<div class="card">\n')
+            note_div_id = front_to_slug_map[note["Front"]]
+            f.write(f'<div id="{note_div_id}" class="card">\n')
 
             f.write('<div class="front">\n')
             f.write(note["Front"] + "\n")
