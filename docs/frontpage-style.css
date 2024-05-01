@@ -122,3 +122,13 @@ div.credits {
     margin-left: auto;
     margin-right: auto;
 }
+
+div.front-page-card-container {
+    float: right;
+    height: 400px;
+    padding: 20px;
+}
+
+div.front-page-card {
+    position: relative;
+}
