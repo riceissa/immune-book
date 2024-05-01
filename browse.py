@@ -61,7 +61,7 @@ with open("docs/browse/index.html", "w") as f:
             f.write(note["Front"] + "\n")
             f.write("</div>\n")
 
-            f.write("<hr/>\n")
+            f.write("<hr>\n")
 
             f.write('<div class="back">\n')
             f.write(note["Back"] + "\n")
