@@ -6,7 +6,9 @@ import util
 
 
 front_to_slug_map = {}
-slugs = set()
+# Initialize the set of known slugs with the section names so that the card
+# id's don't collide with the section id's.
+slugs = set(util.slugify(x) for x in util.sections)
 for section in util.sections:
     for note in util.section_map[section]:
         slug = util.slugify(" ".join(note["Front"].split()[:5]))
