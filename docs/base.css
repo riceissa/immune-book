@@ -32,7 +32,7 @@ body {
      * screens. */
     margin-left: 0;
     margin-right: 0;
-    background-color: #73643F;
+    background-color: #f9a654;
     word-wrap: break-word;
 }
 
@@ -53,7 +53,7 @@ main {
     line-height: 1.45;
     text-rendering: optimizeLegibility;
     border-radius: 9px;
-    background-color: #fdf6e3;
+    background-color: #f7f5e2;
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
