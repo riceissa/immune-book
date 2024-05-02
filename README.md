@@ -11,7 +11,10 @@ you can run `python3 -m pip install -U anki`.
 
 Note also that for now, the scripts (in particular, `media.py`) only work if
 the Anki deck was exported using the "Support older Anki versions
-(slower/larger files)" option.
+(slower/larger files)" option.  This is only a concern if you are editing the
+Anki deck and re-exporting it; if you are just using the Anki deck stored at
+`docs/immune.apkg` then that deck has already been exported using this option,
+so you don't need to do anything.
 
 First download the `.apkg` file into the main directory, and name it `immune.apkg`. Then run the following commands:
 
