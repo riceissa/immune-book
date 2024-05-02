@@ -141,6 +141,24 @@ div.front-page-card {
     width: 22rem;
 }
 
+div#top-card {
+    z-index: 2;
+    top: 7.7rem;
+    left: 1.7rem;
+}
+
+div#middle-card {
+    z-index: 1;
+    top: 3.8rem;
+    left: 3rem;
+}
+
+div#bottom-card {
+    z-index: 0;
+    top: 0rem;
+    left: 4.3rem;
+}
+
 @media screen and (max-width: 900px) {
     .use-options-container {
         padding-left: 0.5rem;
