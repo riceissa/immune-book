@@ -35,8 +35,9 @@ with open("docs/browse/index.html", "w") as f:
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 
-    <title>Browse cards - Immune Book Flashcards</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>&#x1F9A0;</text></svg>">
 
+    <title>Browse cards - Immune Book Flashcards</title>
   </head>
   <body>
     <span id="top"></span>
