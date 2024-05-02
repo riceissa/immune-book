@@ -110,7 +110,7 @@ hr.squiggle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 70px;
+    height: 4rem;
     border: 0px;
 }
 
@@ -118,16 +118,16 @@ div.credits {
     text-align: center;
     max-width: 30rem;
     font-size: 80%;
-    margin-top: 55px;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.front-page-card-container {
     float: right;
-    height: 380px;
-    width: 600px;
-    padding: 20px;
+    height: 20rem;
+    width: 27rem;
+    padding: 1.5rem;
     position: relative;
 }
 
@@ -138,5 +138,5 @@ div.front-page-card-container a {
 
 div.front-page-card {
     position: absolute;
-    max-width: 500px;
+    width: 22rem;
 }
