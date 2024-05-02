@@ -140,3 +140,19 @@ div.front-page-card {
     position: absolute;
     width: 22rem;
 }
+
+@media screen and (max-width: 600px) {
+    .use-options-container {
+        padding-left: 0.5rem;
+    }
+    .features-container {
+        padding-left: 0.5rem;
+    }
+    div.front-page-card-container {
+        height: 28rem;
+        width: 18rem;
+    }
+    div.front-page-card {
+        width: 13rem;
+    }
+}

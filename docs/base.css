@@ -129,3 +129,12 @@ a.heading-marker {
 h2:hover a.heading-marker {
     color: #b58900;
 }
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 18px;
+    }
+    main {
+        padding: 0.5rem;
+    }
+}
