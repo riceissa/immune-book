@@ -151,12 +151,14 @@ div#middle-card {
     z-index: 1;
     top: 3.8rem;
     left: 3rem;
+    background-color: #e3decb;
 }
 
 div#bottom-card {
     z-index: 0;
     top: 0rem;
     left: 4.3rem;
+    background-color: #ddd7c6;
 }
 
 @media screen and (max-width: 900px) {
