@@ -53,7 +53,7 @@ with open("docs/orbit/index.html", "w") as f:
 
     <h2>Orbit index</h2>
 
-    <p>Pick a section below to collect its cards:</p>
+    <p>Pick a chapter below to collect its cards:</p>
     """)
 
     f.write("<ul>")
