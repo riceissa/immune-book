@@ -37,6 +37,9 @@ main {
     margin-bottom: 45px;
 }
 
+.use-options-container a:link { color: #bb3c08; }
+.use-options-container a:visited { color: #bb3c08; }
+
 .use-option-button-container {
     margin-top: 1.5rem;
     text-align: center;
@@ -86,6 +89,9 @@ a.use-option-button:visited { color: #fdf6e3; }
     border-radius: 9px;
     box-shadow: 0 10px 20px 8px rgb(0 0 0 / 0.25);
 }
+
+.features-container a:link { color: #b5bb08; }
+.features-container a:visited { color: #b5bb08; }
 
 .feature-container {
     margin-top: 2rem;
