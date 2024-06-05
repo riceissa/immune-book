@@ -60,7 +60,7 @@ with open("docs/orbit/index.html", "w") as f:
 
     for section in util.sections:
         if not util.section_map[section]:
-            f.write(f"<li>{section} (no cards for this section)</li>\n")
+            f.write(f"<li>{section} (no cards for this chapter)</li>\n")
         else:
             num_cards = len(util.section_map[section])
             f.write(f'<li><a href="{util.slugify(section)}">{section}</a> ({num_cards} card{"" if num_cards == 1 else "s"})</li>\n')

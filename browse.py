@@ -44,7 +44,7 @@ with open("docs/browse/index.html", "w") as f:
     {util.navbar(1)}
     <main>\n""")
 
-    f.write('<p style="font-size: 80%;">Skip to section: ')
+    f.write('<p style="font-size: 80%;">Skip to chapter: ')
     f.write("&nbsp;&middot; ".join(f'<a href="#{util.slugify(section)}">{section}</a>' for section in util.sections))
     f.write("</p>\n")
 
@@ -53,7 +53,7 @@ with open("docs/browse/index.html", "w") as f:
         toc_link = '<a href="#top" title="Go back to the top of the page" class="heading-marker">&#8617;</a>'
         f.write(f'<h2 id="{util.slugify(section)}">{section} {anchor_link} {toc_link}</h2>\n')
         if not util.section_map[section]:
-            f.write("<p>There are no cards for this section.</p>\n")
+            f.write("<p>There are no cards for this chapter.</p>\n")
         for note in util.section_map[section]:
             note_div_id = front_to_slug_map[note["Front"]]
             f.write(f'<div id="{note_div_id}" class="card">\n')
