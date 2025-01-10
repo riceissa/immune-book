@@ -17,7 +17,7 @@ Anki deck and re-exporting it; if you are just using the Anki deck stored at
 `docs/immune.apkg` then that deck has already been exported using this option,
 so you don't need to do anything.
 
-First download the `.apkg` file into the main directory, and name it `immune.apkg`. Then run the following commands:
+First download the `.apkg` file into the `docs/` directory, and name it `immune.apkg`. Then run the following commands:
 
 ```bash
 # .apkg file is actually secretly a zip file. so unzip its contents to a directory called apkg/
