@@ -3,6 +3,7 @@
 ## Installation/generation
 
 This section is only relevant if you want to compile the website locally for development purposes.
+If you just want to use the Immune deck, go to <https://riceissa.github.io/immune-book/>.
 
 You will need the command-line programs `unzip` and `pandoc` in order to run the following commands.
 If you don't have them, on Ubuntu you can just run `sudo apt install unzip pandoc`.
